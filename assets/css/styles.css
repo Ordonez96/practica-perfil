@@ -1,0 +1,43 @@
+@import url('https://fonts.googleapis.com/css2?family=Shadows+Into+Light&display=swap');
+
+.body{
+    background-color: rgb(206, 211, 211);
+    color: rgb(0, 0, 0);
+    font-family: 'Shadows Into Light', 'sans-serif' !important;
+    font-weight: 600 !important;
+    font-size: 1.1rem;
+}
+
+/* ---- Header section ----*/
+
+
+.header .navbar .logo h2{
+    font-size: 2.5rem ;
+}
+.header .navbar .logo h2 span{
+    color: rgb(102, 104, 103) ;
+    text-shadow: 1px 1px 3px;
+}
+.header .navbar .menu-navbar {
+    width: 40vw;
+    display: flex;
+    justify-content: space-around;
+    list-style: none;
+}
+.header .navbar .menu-navbar li a{
+    text-decoration: none;
+    color: rgb(34, 34, 34);
+}
+
+/* ---- Main section ----*/
+
+.main-content{
+    display: grid;
+    grid-template-columns: 4fr 4fr;
+    gap: 2rem ;
+    align-items: center;
+}
+.main-content .img-container img{
+    width: 40vw;
+}
+
